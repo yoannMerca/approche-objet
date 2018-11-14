@@ -6,5 +6,6 @@ public class Personne {
 	public AdressePostale adresse = new AdressePostale();
 	public void affichePersonne(){
 		System.out.println("nom =>"+ this.nom +" prenom =>"+ this.prenom);
+		adresse.afficheAdresse();
 	}
 }

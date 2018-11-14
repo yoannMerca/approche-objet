@@ -14,7 +14,7 @@ public class TestPersonne {
 		
 		perso1.nom =" mon nom";
 		perso1.prenom =" mon prenom";
-		perso1.adresse.afficheAdresse();
+
 		perso1.affichePersonne();
 
 	}
