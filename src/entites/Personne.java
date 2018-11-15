@@ -33,6 +33,8 @@ public class Personne {
 	
 	
 	//tp3
+	//creation des assesseurs
+	//
 	public String getNom() {
 		return nom;
 	}
@@ -57,13 +59,10 @@ public class Personne {
 		this.adresse = adresse;
 	}
 	
-	
-
 	public int getAnneeNaissance() {
 		return anneeNaissance;
 	}
 	public int getAge() {
-	
 		return  2018 - getAnneeNaissance();
 	}
 
