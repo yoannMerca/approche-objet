@@ -38,15 +38,15 @@ public class TestSetObjet {
 		
 		System.out.println(pays);
 		//Recherchez le pays avec le PIB/hab le plus important
-				Long pibHab=0L;
-				Pays paysPibHab= null;
-				for (Pays p : pays) {
-					if(p.getPib()>pibHab) {
-						paysPibHab = p;
-						pibHab = p.getPib();
-					}
-				}
-				System.out.println(" le pays avec le PIB/hab le plus important est =>"+paysPibHab.getName());
+		Long pibHab=0L;
+		Pays paysPibHab= null;
+		for (Pays p : pays) {
+			if(p.getPib()>pibHab) {
+				paysPibHab = p;
+				pibHab = p.getPib();
+			}
+		}
+		System.out.println(" le pays avec le PIB/hab le plus important est =>"+paysPibHab.getName());
 		
 		
 		//Recherchez le pays avec le PIB total le plus important

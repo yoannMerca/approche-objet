@@ -35,11 +35,11 @@ public class Pays {
 	public void setPib(Long pib) {
 		this.pib = pib;
 	}
-
+	
 
 	@Override
 	public String toString() {
-		return "Pays [name=" + name + ", population=" + population + ", pib=" + pib + "]\r\n";
+		return "Nom=> " + name + ", population=> " + population + ", pib =>" + pib + " pib total => "+ pib*population  +"\r\n";
 	}
 	
 	
