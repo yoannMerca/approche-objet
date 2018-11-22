@@ -26,24 +26,24 @@ public class TestListeInt {
 		tab.add(4);
 		tab.add(8);
 		tab.add(5);
-		for (Integer value : tab) {
-			System.out.print("["+value+"]");
-		}
+	
+			System.out.print(tab);
+	
 		System.out.println();
 		System.out.println(Collections.max(tab));
 		System.out.println(Collections.min(tab));
 		tab.remove(Collections.min(tab));
-		for (Integer value : tab) {
-			System.out.print("["+value+"]");
-		}
-		System.out.println("----------------------------------------");
+	
+			System.out.print(tab);
+		
+		System.out.println("");
 		for (Integer value : tab) {
 			if(value<0) {
-				tab.set(tab.indexOf(value), (value+(-value)));
+				tab.set(tab.indexOf(value), Math.abs(value));
 			}	
 		}
-		for (Integer value : tab) {
-			System.out.print("["+value+"]");
-		}
+	
+			System.out.print(tab);
+		
 	}
 }
